@@ -11,9 +11,9 @@ services:
     build: ./backend
     container_name: backend
     ports:
-      - "6000:6000"
+      - "4000:4000"
     environment:
-      - MONGO_URI=mongodb://mongo:27017/db
+      - MONGO_URI=mongodb://db:27017/db
     depends_on:
       - db
 
