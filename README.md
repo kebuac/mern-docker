@@ -20,16 +20,16 @@ El archivo `docker-compose.yml` incluye la configuración para todos los servici
 
 ## Uso
 
-### 1. Clona el repositorio y navega al directorio del proyecto.
+- 1. Clona el repositorio y navega al directorio del proyecto.
 
-### 2. Asegúrate de que todos los servicios están configurados correctamente y que las variables de entorno (credenciales de la base de datos) estén configuradas en docker-compose.yml y en los archivos de conexión de la API.
+- 2. Asegúrate de que todos los servicios están configurados correctamente y que las variables de entorno (credenciales de la base de datos) estén configuradas en docker-compose.yml y en los archivos de conexión de la API.
 
-### 3. Ejecuta el proyecto con: `docker compose up --build -d`
+- 3. Ejecuta el proyecto con: `docker compose up --build -d`
 
-### 4. La aplicación estará disponible en los siguientes puertos:
+- 4. La aplicación estará disponible en los siguientes puertos:
 
-- **Puerto 3000:** Servidor de Angular.
-- **Puerto 5000:** API de Node.js.
+- **Puerto 3000:** Servidor de React.
+- **Puerto 4000:** API de Node.js.
 
 ## Notas
 
